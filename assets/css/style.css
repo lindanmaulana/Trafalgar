@@ -575,7 +575,7 @@ img {
 
 /* hero banner start */
 .hero-banner {
-  padding-bottom: 163px;
+  padding-bottom: 82.5px;
 }
 
 .hero-banner-inner {
@@ -628,7 +628,7 @@ img {
 
 /* our services start */
 .our-services {
-  padding-top: 163px;
+  padding-top: 82.5px;
   padding-bottom: 38px;
 }
 
@@ -819,7 +819,7 @@ img {
 .mobile-apps {
   padding-top: 120px;
   padding-bottom: 112.5px;
-  margin-left: 145px;
+  margin-left: 45px;
 }
 
 .mobile-apps-inner {
@@ -892,8 +892,6 @@ img {
 .customer-saying {
   padding-top: 112.5px;
   padding-bottom: 110.5px;
-  margin-left: 107px;
-  margin-right: 46px;
 }
 
 .customer-saying-inner {
@@ -1004,6 +1002,7 @@ img {
   text-align: center;
   font-size: 36px;
   line-height: 48px;
+  margin: 0;
   margin-bottom: 72px;
 }
 .article-title::after {
@@ -1054,10 +1053,14 @@ img {
 .article-name {
   font-size: 22px;
   line-height: 32px;
+  margin: 0;
+  margin-bottom: 16px;
 }
 .article-description {
   font-size: 16px;
   line-height: 24px;
+  margin: 0;
+  margin-bottom: 36px;
 }
 
 .article-action {
@@ -1066,14 +1069,28 @@ img {
   align-items: center;
   text-align: center;
 }
+
 .article-link {
   font-size: 18px;
   line-height: 28px;
   color: #458ff6;
   text-decoration: none;
-  border: 1px solid #458ff6;
   padding: 5px 30px;
-  border-radius: 50px;
+}
+
+.article-link:hover img {
+  transition: all 0.8s ease-in-out;
+  margin-left: 10px;
+}
+
+.article-action-all {
+  font-size: 18px;
+  line-height: 28px;
+  color: #458ff6;
+  text-decoration: none;
+  padding: 5px 30px;
+  border-radius: 55px;
+  border: 1px solid #458FF6;
 }
 /* article end */
 
@@ -1144,6 +1161,7 @@ img {
   font-weight: 700;
   line-height: 30px;
   color: #FFFFFF;
+  margin: 0;
   margin-bottom: 24px;
 }
 
